@@ -145,8 +145,8 @@ public class DetailsActivity extends AppCompatActivity {
 //                    byte[] pic_byte_after = Base64.getDecoder().decode(pic_str);
 //                    System.out.println(pic_byte_after.length);
                     history send_history = new history(pic_str, result, current_time, user_id);
-                    Log.d("history_user_id", user_id);
-                    Log.d("pic", result);
+//                    Log.d("history_user_id", user_id);
+//                    Log.d("pic", result);
                     String msg = postHttp(send_history);
                     System.out.println(msg);
                 }
